@@ -1,0 +1,10 @@
+# Phase 1: Dataset Inspection & Visualization
+numpy>=1.24.0
+pandas>=2.1.0
+pyarrow>=14.0.0
+pillow>=10.0.0
+opencv-python>=4.8.0
+matplotlib>=3.8.0,<=3.9.2
+kiwisolver==1.4.5
+jupyter>=1.0.0
+tifffile>=2023.7.0
