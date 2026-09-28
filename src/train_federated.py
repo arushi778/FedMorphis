@@ -17,7 +17,7 @@ from fedavg import fedavg
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 BATCH_SIZE = 2
 LOCAL_EPOCHS = 1
-MAX_BATCHES = 2  # Smoke test only; set to None for full local epochs
+MAX_BATCHES = None  # Smoke test only; set to None for full local epochs
 LEARNING_RATE = 1e-4
 
 
