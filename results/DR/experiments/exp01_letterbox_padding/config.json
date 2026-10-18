@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-1",
+  "experiment_name": "Phase 2B EXP-1: Aspect-Ratio Letterbox Preprocessing",
+  "random_seed": 42,
+  "image_size": 512,
+  "target_lesion": "all",
+  "batch_size": 2,
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "loss": "masked_bce+masked_dice",
+  "threshold": 0.5,
+  "exp_dir": "C:\\FedMorphis\\FedMorphis\\results\\DR\\experiments\\exp01_letterbox_padding",
+  "checkpoint_dir": "C:\\FedMorphis\\FedMorphis\\results\\DR\\experiments\\exp01_letterbox_padding\\checkpoints",
+  "pred_dir": "C:\\FedMorphis\\FedMorphis\\results\\DR\\experiments\\exp01_letterbox_padding\\val_predictions"
+}

@@ -1,0 +1,14 @@
+Phase 2B EXP-1 (Letterbox Preprocessing) vs Baseline Anchor
+======================================================================
+Total training time: 117.3 minutes
+Best Epoch: 19 / 20
+
+Metric                      Baseline Anchor  EXP-1 (Letterbox)        Delta
+--------------------------------------------------------------------------
+Global Dice                          0.3609             0.3606      -0.0003
+Macro Dice                           0.3191             0.3172      -0.0019
+Global IoU                           0.2201             0.2200      -0.0001
+Sensitivity (Recall)                 0.2782             0.2572      -0.0210
+Specificity                          0.9991             0.9994      +0.0003
+Precision                            0.5133             0.6031      +0.0898
+Pred / GT Ratio                      0.5420             0.4265      -0.1155

@@ -1,0 +1,14 @@
+DR Local Binary Lesion Segmentation Baseline — Test Set Metrics
+============================================================
+Experiment: DR Local Binary Lesion Segmentation Baseline
+Model:      SharedUNet (SharedEncoder + U-Net decoder)
+Image size: 512x512
+Threshold:  0.5
+Lesion mask: binary union of EX, HE, MA, SE
+
+Metric       | Value
+-------------|-------
+Dice         | 0.2769
+IoU          | 0.1607
+Sensitivity  | 0.1903
+Specificity  | 0.9985
